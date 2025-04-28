@@ -2,11 +2,6 @@
 
 This repository contains the complete codebase and reasoning developed for the IMC Prosperity Trading Challenge 2025.
 
-### Final Results:
-
-- 32nd place globally (out of 12,620 teams)
-- 3rd place in France
-
 ### About the Challenge
 
 Organized by IMC Trading, Prosperity is a 15-day competition where participants design autonomous trading strategies and solve real-world trading puzzles under uncertainty.
@@ -17,22 +12,32 @@ Algorithmic Trading: Building real-time trading bots interacting with a simulate
 
 Manual Trading: Solving complex, game-theoretic, and probabilistic optimization problems.
 
-Our team engineered models that balanced theoretical rigor and practical robustness, adapting dynamically to market conditions as complexity increased round after round.
+Our team engineered models that balanced theoretical rigor and practical robustness, adapting dynamically to market conditions as complexity increased round after round. At the end, we ranked 32th in the world and 3rd in France on over 12600 participants.
 
 ### Project Structure
 
 /algo_finalsub/
+
     r1_submitted.py          # Round 1 - Basic mid-price strategies
+    
     r2_submitted.py          # Round 2 - Dynamic spread management
+    
     r3_submitted.py          # Round 3 - Synthetic arbitrage (baskets)
+    
     r4_submitted.py          # Round 4 - Volatility surface modeling
+    
     r5_submitted.py          # Round 5 - Synthesis of all the above
+    
     datamodel.py             # (MANDATORY) Platform data classes - must be downloaded locally
 
 /manual_trading/
+
     manual.ipynb             # General strategic analyses
+    
     round2_manual.py         # Game theory - container auction problem
+    
     round3_manual.ipynb      # Portfolio optimization under quadratic costs
+    
     round4_manual.ipynb      # News trading and asset allocation optimization
 
 
@@ -74,5 +79,5 @@ This competition taught us how to:
 
 
 ### Credits
- 
+
 Thanks to my incredible and talented team, who helped me improve and learn so much. Thanks also to IMC Trading for hosting one of the most realistic and challenging student competitions in algorithmic trading.
