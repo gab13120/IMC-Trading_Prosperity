@@ -40,14 +40,14 @@ Note: datamodel.py is required for the algorithmic code to run. It must be place
 
 ### Highlights
 
-##### Algorithmic Trading:
+#### Algorithmic Trading:
 
 - Adaptive inventory-based quoting
 - Synthetic arbitrage across composite products
 - Option pricing approximations with implied volatilities (Brent root-finding method)
 - Real-time decision engines under latency and transaction constraints
 
-##### Manual Trading:
+#### Manual Trading:
 
 - Application of Quantal Response Equilibrium (QRE) to model bounded rationality
 - Analytical derivations and sensitivity analysis
