@@ -17,6 +17,7 @@ Our team engineered models that balanced theoretical rigor and practical robustn
 ### Project Structure
 
 /algo_finalsub/
+
     r1_submitted.py
     r2_submitted.py
     r3_submitted.py
@@ -25,6 +26,7 @@ Our team engineered models that balanced theoretical rigor and practical robustn
     datamodel.py
 
 /manual_trading/
+
     manual.ipynb
     round2_manual.py
     round3_manual.ipynb
@@ -61,10 +63,7 @@ This project was developed on Python 3.12.
 
 ### Why This Project Matters
 
-This competition taught us how to:
-- Design robust, adaptive strategies for highly dynamic markets.
-- Implement and validate quantitative methods under real-world execution constraints.
-- Balance between theoretical optimality and practical viability.
+Throughout this competition, we learned how to design adaptive strategies for highly dynamic markets and implement and validate quantitative methods under real-world execution constraints. It has also helped me understand the balance between theoretical optimality and practical viability.
 
 
 ### Credits
